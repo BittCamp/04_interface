@@ -1,0 +1,20 @@
+package interface_;//[ 김찬영  2023-07-24 오후 01:36:54 ]
+
+import java.util.Scanner;
+
+public class Sum implements Compute {
+	private int x,y;
+	
+	public Sum() {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("x의 값 입력: ");
+		x = scan.nextInt();
+		System.out.println("y의 값 입력: ");
+		y = scan.nextInt();
+	}
+	@Override
+	public void disp() {
+		System.out.println(x +" + "+y+" = " + (x+y));
+	} // 이렇게 오버라이딩 안걸면 오류난다.
+}
