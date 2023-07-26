@@ -9,7 +9,7 @@ public class SungJukDelete implements SungJuk {
 	@Override
 	public void execute(ArrayList<SungJukDTO> arrayList) {
 		Scanner scan = new Scanner(System.in);
-		
+		System.out.println();
 		System.out.println("삭제할 이름 입력 : ");
 		String name = scan.next();
 		int sw = 0;

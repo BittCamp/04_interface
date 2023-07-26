@@ -7,6 +7,8 @@ public class SungJukUpdate implements SungJuk {
 
 	@Override
 	public void execute(ArrayList<SungJukDTO> arrayList) {
+		System.out.println();
+		
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("수정할 학생의 번호를 입력하시오.");

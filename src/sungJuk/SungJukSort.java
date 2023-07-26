@@ -9,6 +9,7 @@ public class SungJukSort implements SungJuk {
 
 	@Override
 	public void execute(ArrayList<SungJukDTO> arrayList) {
+		System.out.println();
 		Scanner scan = new Scanner(System.in);
 		int num;
 		
